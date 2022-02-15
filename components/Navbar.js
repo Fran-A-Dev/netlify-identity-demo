@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="container">
       <nav>
         <Image src="/rupee.png" width={50} height={48} />
-        <h1>Gaming Vibes</h1>
+        <h1>Authentication Stoke</h1>
         <ul>
           <li>
             <Link href="/">
@@ -20,8 +20,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/guides">
-              <a>Guides</a>
+            <Link href="https://docs.netlify.com/visitor-access/identity/">
+              <a>Docs</a>
             </Link>
           </li>
           <li onClick={login} className="btn">
@@ -33,7 +33,7 @@ export default function Navbar() {
         </ul>
       </nav>
       <div className="banner">
-        <Image src="/banner.png" width={966} height={276} />
+        <Image src="/banner.png" width={720} height={276} />
       </div>
     </div>
   );
