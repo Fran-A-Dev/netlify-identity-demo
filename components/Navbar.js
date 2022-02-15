@@ -20,8 +20,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="https://docs.netlify.com/visitor-access/identity/">
-              <a>Docs</a>
+            <Link href="/guides">
+              <a>Netlify Guides</a>
             </Link>
           </li>
           {!user && (
