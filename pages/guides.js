@@ -50,7 +50,7 @@ export default function Guides() {
           <div key={guide.title} className={styles.card}>
             <h3>{guide.title}</h3>
             <h4>written by {guide.author}</h4>
-            <p>{guide.url}</p>
+            <a href={guide.url}>{guide.url}</a>
           </div>
         ))}
     </div>
