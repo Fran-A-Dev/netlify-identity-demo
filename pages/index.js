@@ -10,9 +10,7 @@ export default function Home() {
           functionality, backed by the GoTrue API. This allows you to manage and
           authenticate users on your site or app, without requiring them to be
           users of Netlify or any other service. You can use this for gated
-          content, site administration, and more. For a working example using
-          Netlify Identity service with Git Gateway to manage users in Netlify
-          CMS, try deploying this repository:
+          content, site administration, and more.
         </p>
       </div>
     </div>
